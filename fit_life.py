@@ -50,8 +50,8 @@ water_needed_l = water_needed_ml / ML_PER_L
 print()
 print('=' * 10)
 print(
-    f'Привет, {user_name}!'
-    f'Ваш возраст: {user_age}'
-    f'Ваш ИМТ: {bmi:.1f}'
-    f'Ваша норма воды: {water_needed_l:.2f} литров в день.')
+    f'Привет, {user_name}!\n'
+    f'Ваш возраст: {user_age}\n'
+    f'Ваш ИМТ: {bmi:.1f}\n'
+    f'Ваша норма воды: {water_needed_l:.2f} литров в день.\n')
 print('Расчет окончен. Будьте здоровы!')
