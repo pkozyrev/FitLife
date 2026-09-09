@@ -26,15 +26,13 @@ user_height = float(input(
 # Рассчитываем bmi (Индекс массы тела)
 def calculate_bmi(user_weight, user_height):
     """Рассчитываем ИМТ."""
-    bmi = user_weight / (user_height ** 2)
-    return bmi
+    return user_weight / (user_height ** 2)
 
 
 # Подсчет воды: вес * 30 мл
 def calculate_water(user_weight):
     """Рассчитываем необходимое количество воды в день."""
-    water_needed = user_weight * WATER_PER_KG
-    return water_needed
+    return user_weight * WATER_PER_KG
 
 
 # 4. Запись расчетов функций в переменные
